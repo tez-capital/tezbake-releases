@@ -1,17 +1,19 @@
 docs/cmd/tezbake_vote.md## tezbake vote
 
-Cast vote for proposal/s.
+(DEPRECATED) Cast vote for proposal/s.
 
 ### Synopsis
 
-Submits vote for proposal/s based on provided voting period.
+(DEPRECATED) Use 'https://gov.tez.capital/' instead.
+	
+	Submits vote for proposal/s based on provided voting period.
 	
 	Exploration:
-	`bb-cli vote --period exploration <proposal> yay|nay|pass`
+	`tezbake vote --period exploration <proposal> yay|nay|pass`
 	Proposal:
-	`bb-cli vote --period proposal <proposal1> <proposal2>`
+	`tezbake vote --period proposal <proposal1> <proposal2>`
 	Promotion:
-	`bb-cli vote --period promotion <proposal> yay|nay|pass`
+	`tezbake vote --period promotion <proposal> yay|nay|pass`
 	
 
 ```

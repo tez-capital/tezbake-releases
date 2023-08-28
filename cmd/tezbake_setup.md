@@ -26,7 +26,7 @@ tezbake setup [flags]
       --remote-node string            username:<ssh key file>@address (experimental)
       --remote-path string            where on remote install node - defaults to '/bake-buddy/node' (experimental) (default "/bake-buddy")
       --remote-reset                  Resets and reconfigures remote node locator. (experimental)
-      --remote-user string            Sets user remote node will be operated under. (experimental) (default "bb")
+      --remote-user string            Sets user remote node will be operated under. (experimental, ignored if remote uses elevation) (default "bb")
   -a, --setup-ami                     Install latest ami during the BB setup.
       --signer                        Setups signer.
       --signer-branch string          Sets signer configuration.

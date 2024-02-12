@@ -20,6 +20,7 @@ tezbake info [flags]
       --node-simple       
       --node-voting       
       --peak              Prints info for peak.
+      --peak-services     
       --signer            Prints info for signer.
       --signer-baking     
       --signer-services   
